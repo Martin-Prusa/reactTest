@@ -1,4 +1,4 @@
-import styles from "../../../styles/Home.module.css";
+import styles from "../../styles/Counter.module.css";
 import {useState} from "react";
 
 export const CounterComponent = () => {
@@ -17,8 +17,8 @@ export const CounterComponent = () => {
         <div className={styles.counter}>
             <div className={styles.text}>{count}</div>
             <div>
-                <button className={styles.btn} onClick={minus}>Odebrat</button>
-                <button className={styles.btn} onClick={plus}>Přídat</button>
+                <button className="btn" onClick={minus}>Odebrat</button>
+                <button className="btn" onClick={plus}>Přidat</button>
             </div>
         </div>
     )

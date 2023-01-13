@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import {useState} from "react";
-import {CounterComponent} from "./components/counter/CounterComponent";
+import {CounterComponent} from "../components/counter/CounterComponent";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,8 +24,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-          <div className={styles.cont} >
-              <div><button style={{marginTop: '30px'}} className={styles.btn} onClick={toggle}>Schovat počítadlo</button></div>
+          <div className={styles.cont}>
+              <div><button style={{marginTop: '30px'}} className="btn" onClick={toggle}>Schovat počítadlo</button></div>
               {show ? <CounterComponent /> : ''}
           </div>
       </main>

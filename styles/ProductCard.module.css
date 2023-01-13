@@ -1,0 +1,36 @@
+.card {
+    border: 2px solid #004d75;
+    margin: 20px;
+    padding: 20px;
+    background-color: #d7f2ff;
+    display: flex;
+    border-radius: 15px;
+}
+
+.brand {
+    color: #004d75;
+    font-weight: bold;;
+}
+
+.price {
+    font-size: 1.5rem;
+    color:#004d75 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info span {
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-size: 1.3rem;
+    color: #004d75;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin: 10px 0;
+}
