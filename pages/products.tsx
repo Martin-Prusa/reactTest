@@ -1,5 +1,5 @@
 import data from "./data";
-import {Product} from "./Product";
+import {Product} from "../interfaces/Product";
 import {ProductCard} from "../components/productCard/ProductCard";
 import styles from '../styles/Product.module.css'
 
